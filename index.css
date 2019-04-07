@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+  }
+
+  body {
+     width: 100%;
+     height: 100%;
+     margin:0;
+     background-color:#BB91CD;
+  }
+
+  header {
+    float:center;
+    width:100%;
+    border-bottom-width:7px;
+    border-bottom-style:solid;
+    border-bottom-color:#230C33;
+    background-color:#F8F0FE;
+  }
+
+  nav {
+      float: center;
+      width: 100%;
+  }
+
+  nav ul {
+      height:100%;
+      margin-right:10px;
+      margin-top:0px;
+      float: left;
+      background-color:#CFD8F0;
+      border-right-color: #230C33;
+      border-right-width:7px;
+      border-right-style:solid;
+      list-style-type: none;
+  }
+
+  nav li {
+      float: left;
+  }
+
+  nav li a {
+      display: block;
+      height: 25px;
+      padding: 12px 18px 8px 18px;
+      vertical-align: middle;
+  }
+
+  a {
+      color: ;
+  }
+
+  section {
+      width: 73%;
+      display: inline-block;
+      /* float: left; */
+      /* background-image: url("KOGalaxy.jpg"); */
+  }
+  p{
+      float:center;
+  }
+
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color:#CFD8F0;
+      padding:;
+      min-height: 100%;
+  }
+
+  aside ul {
+      list-style-type: none;
+  }
+
+  footer {
+    width:100%;
+    border-top-width:7px;
+    border-top-style:solid;
+    border-top-color:#230C33;
+  }
+  .d1 {
+    margin: 20px 20px 20px 20px;
+    display:inline-block;
+      width:35%;
+      border: 5px #230C33 solid;
+      border-radius: 30px;
+      float:right;
+      background-color:#F8F0FE;
+      
+  }
+  .d2 {
+    margin: 20px 20px 20px 20px;
+    width:35%;
+    border: 5px #230C33 solid;
+    border-radius: 30px;
+    float:left;
+    background-color:#F8F0FE;
+    display:inline-block;
+  }
+  .d3 {
+    margin: 20px 20px 20px 20px;
+    width:35%;
+    align-items: center;
+    border: 5px #230C33 solid;
+    border-radius: 30px;
+    background-color:#F8F0FE;
+    display:inline-block;
+  }
